@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "gamebase",
+    "name": "Gamebase",
     "slug": "gamebase",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,15 +8,22 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tomk99.gamebase",
+      "buildNumber": "1"
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tomk99.gamebase",
+      "versionCode": 1
     },
+
     "web": {
       "bundler": "metro",
       "output": "static",
